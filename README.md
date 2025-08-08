@@ -12,7 +12,3 @@ Anshit-Sony-PasteApp is a modern, lightweight application designed to manage and
 ## Directory Structure
 Anshit-Sony-PasteApp/ ├── README.md # Project documentation ├── eslint.config.js # ESLint configuration ├── index.html # Main HTML file ├── package.json # Dependencies and scripts ├── vite.config.js # Vite configuration ├── public/ # Static assets served directly └── src/ # Application source code ├── App.css # Global app styles ├── App.jsx # Main App component ├── index.css # Global styles ├── main.jsx # Application entry point ├── app/ # Application-wide configurations │ └── store.js # Redux store configuration ├── assets/ # Application assets (images, icons, etc.) ├── components/ # Reusable components │ ├── Home.jsx # Home page component │ ├── Navbar.jsx # Navbar component │ ├── Pastes.jsx # Component to list pastes │ └── ViewPastes.jsx # Component to view individual pastes └── features/ # Redux slices └── pasteSlice.js # Slice for managing paste-related state
 
-## Installation
-
-1. Clone the repository:
-   git clone https://github.com/your-username/Anshit-Sony-PasteApp.git
